@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Comparativa dos Tipos de Empresas</title>
+
+<style>
+    body{
+        font-family: 'Segoe UI', sans-serif;
+        background:#f4f6fb;
+        margin:40px;
+        color:#333;
+    }
+
+    .container{
+        max-width:1100px;
+        margin:auto;
+    }
+
+    h1{
+        text-align:center;
+        color:#5a3ec8;
+        margin-bottom:30px;
+        font-size:2rem;
+    }
+
+    .cards{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+        gap:20px;
+    }
+
+    .card{
+        background:white;
+        border-radius:18px;
+        padding:24px;
+        box-shadow:0 6px 18px rgba(0,0,0,0.08);
+        transition:0.3s ease;
+        border-top:8px solid #6D64AE;
+    }
+
+    .card:hover{
+        transform:translateY(-5px);
+        box-shadow:0 10px 24px rgba(0,0,0,0.12);
+    }
+
+    .categoria{
+        font-size:1.2rem;
+        font-weight:700;
+        color:#6D64AE;
+        margin-bottom:14px;
+    }
+
+    .subtitulo{
+        font-weight:600;
+        color:#8A0538;
+        margin-top:12px;
+        margin-bottom:6px;
+    }
+
+    .texto{
+        line-height:1.6;
+        font-size:0.95rem;
+    }
+
+    .referencia{
+        margin-top:18px;
+        font-size:0.85rem;
+        color:#666;
+        background:#f2f0fb;
+        padding:8px 12px;
+        border-radius:10px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Tabela Comparativa dos Tipos de Empresas</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="categoria">Natureza Jurídica</div>
+
+            <div class="subtitulo">Tipos</div>
+            <div class="texto">
+                Públicas, Privadas, Terceiro Setor e Economia Mista
+            </div>
+
+            <div class="subtitulo">Características</div>
+            <div class="texto">
+                Diferem em propriedade, controle e finalidade.
+            </div>
+
+            <div class="referencia">
+                Referência: Chiavenato (2014)
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="categoria">Porte</div>
+
+            <div class="subtitulo">Tipos</div>
+            <div class="texto">
+                Micro, Pequena, Média e Grande Empresa
+            </div>
+
+            <div class="subtitulo">Características</div>
+            <div class="texto">
+                Definido pela receita e número de empregados.
+            </div>
+
+            <div class="referencia">
+                Referência: SEBRAE (2021), Chiavenato (2014)
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="categoria">Setor Econômico</div>
+
+            <div class="subtitulo">Tipos</div>
+            <div class="texto">
+                Primário, Secundário e Terciário
+            </div>
+
+            <div class="subtitulo">Características</div>
+            <div class="texto">
+                Baseado nas atividades produtivas e comerciais.
+            </div>
+
+            <div class="referencia">
+                Referência: Maximiano (2016)
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="categoria">Forma de Organização</div>
+
+            <div class="subtitulo">Tipos</div>
+            <div class="texto">
+                Individual, LTDA e S/A
+            </div>
+
+            <div class="subtitulo">Características</div>
+            <div class="texto">
+                Define aspectos legais, governança e responsabilidade.
+            </div>
+
+            <div class="referencia">
+                Referência: Drucker (1999)
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="categoria">Outras Categorias</div>
+
+            <div class="subtitulo">Tipos</div>
+            <div class="texto">
+                Familiar, Startup e Franquia
+            </div>
+
+            <div class="subtitulo">Características</div>
+            <div class="texto">
+                Possuem características específicas de gestão e cultura.
+            </div>
+
+            <div class="referencia">
+                Referência: Diversos autores
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
